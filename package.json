@@ -1,0 +1,27 @@
+{
+  "name": "practica",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:sass": "sass styles/scss/main.scss styles/css/main.css",
+    "build:tailwind": "npx postcss styles/tailwind/tailwind.css -o styles/css/tailwind.css",
+    "build": "npm run build:sass && npm run build:tailwind",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RogerRh-23/Practica.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/RogerRh-23/Practica/issues"
+  },
+  "homepage": "https://github.com/RogerRh-23/Practica#readme",
+  "devDependencies": {
+    "postcss-cli": "^11.0.1"
+  }
+}
