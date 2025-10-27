@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Roberto/Documents/VSC%20Proyectos/Practica/pages/_app.js"],"sourcesContent":["// Import the generated CSS files (Tailwind already processed to styles/css/tailwind.css)\r\nimport '../styles/css/tailwind.css'\r\nimport '../styles/css/main.css' // CSS generado por SCSS\r\n\r\nexport default function App({ Component, pageProps }) {\r\n    return <Component {...pageProps} />\r\n}\r\n"],"names":[],"mappings":"AAAA,yFAAyF;;;;;;;;;AAI1E,SAAS,IAAI,EAAE,SAAS,EAAE,SAAS,EAAE;IAChD,qBAAO,qKAAC;QAAW,GAAG,SAAS;;;;;;AACnC","debugId":null}}]
+}

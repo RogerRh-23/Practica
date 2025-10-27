@@ -1,0 +1,13 @@
+__turbopack_load_page_chunks__("/_error", [
+  "static/chunks/612ce_next_dist_compiled_d011a720._.js",
+  "static/chunks/612ce_next_dist_shared_lib_6b27054f._.js",
+  "static/chunks/612ce_next_dist_client_2f6a9d72._.js",
+  "static/chunks/612ce_next_dist_f08f02fc._.js",
+  "static/chunks/612ce_next_error_6e767f38.js",
+  "static/chunks/[next]_entry_page-loader_ts_6e2a2c1f._.js",
+  "static/chunks/612ce_react-dom_41d04a0d._.js",
+  "static/chunks/612ce_4c311e86._.js",
+  "static/chunks/[root-of-the-server]__d2f4c729._.js",
+  "static/chunks/Documents_VSC Proyectos_Practica_pages__error_2da965e7._.js",
+  "static/chunks/turbopack-Documents_VSC Proyectos_Practica_pages__error_51e4e230._.js"
+])

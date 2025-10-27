@@ -1,5 +1,5 @@
 // Configuración básica de Next.js
-module.exports = {
+export default {
     reactStrictMode: true,
     swcMinify: true,
 }
