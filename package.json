@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build:sass": "sass styles/scss/main.scss styles/css/main.css",
-    "build:tailwind": "npx postcss styles/tailwind/tailwind.css -o styles/css/tailwind.css --config styles/postcss/postcss.config.js",
-    "dev:tailwind": "npx postcss styles/tailwind/tailwind.css -o styles/css/tailwind.css --watch --config styles/postcss/postcss.config.js",
+    "build:tailwind": "npx tailwindcss -i styles/tailwind/tailwind.css -o styles/css/tailwind.css --config tailwind.config.js",
+    "dev:tailwind": "npx tailwindcss -i styles/tailwind/tailwind.css -o styles/css/tailwind.css --watch --config tailwind.config.js",
     "dev:all": "concurrently \"npm run dev\" \"npm run dev:tailwind\"",
     "build": "npm run build:sass && npm run build:tailwind",
     "dev": "next dev",
@@ -26,6 +26,7 @@
   "homepage": "https://github.com/RogerRh-23/Practica#readme",
   "devDependencies": {
     "@tailwindcss/postcss": "^4.1.16",
+    "tailwindcss": "^4.1.16",
     "concurrently": "^9.2.1",
     "postcss-cli": "^11.0.1"
   },

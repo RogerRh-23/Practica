@@ -1,5 +1,6 @@
-[00:00:01.210] Server  LOG      ✓ Ready in 829ms
-[00:00:06.893] Server  ERROR    ⨯ ./Documents/VSC Proyectos/Practica/node_modules/lightningcss/node/index.js:22:22
+[00:00:01.058] Server  LOG      ✓ Ready in 678ms
+[00:01:04.244] Server  LOG      ○ Compiling / ...
+[00:01:04.549] Server  ERROR    ⨯ ./Documents/VSC Proyectos/Practica/node_modules/lightningcss/node/index.js:22:22
 Module not found: Can't resolve '../lightningcss.' <dynamic> '.node'
   20 |     module.exports = require(`lightningcss-${parts.join('-')}`);
   21 |   } catch (err) {
@@ -21,7 +22,7 @@ Import trace:
 https://nextjs.org/docs/messages/module-not-found
 
 
-[00:00:06.894] Server  ERROR    ⨯ ./Documents/VSC Proyectos/Practica/node_modules/lightningcss/node/index.js:17:20
+[00:01:04.551] Server  ERROR    ⨯ ./Documents/VSC Proyectos/Practica/node_modules/lightningcss/node/index.js:17:20
 Module not found: Can't resolve '../pkg'
   15 |
   16 | if (process.env.CSS_TRANSFORMER_WASM) {
@@ -43,8 +44,7 @@ Import trace:
 https://nextjs.org/docs/messages/module-not-found
 
 
-[00:00:06.895] Server  LOG      ○ Compiling / ...
-[00:00:07.163] Server  ERROR    ⨯ ./Documents/VSC Proyectos/Practica/node_modules/lightningcss/node/index.js:22:22
+[00:01:04.858] Server  ERROR    ⨯ ./Documents/VSC Proyectos/Practica/node_modules/lightningcss/node/index.js:22:22
 Module not found: Can't resolve '../lightningcss.' <dynamic> '.node'
   20 |     module.exports = require(`lightningcss-${parts.join('-')}`);
   21 |   } catch (err) {
@@ -66,7 +66,7 @@ Import trace:
 https://nextjs.org/docs/messages/module-not-found
 
 
-[00:00:07.164] Server  ERROR    ⨯ ./Documents/VSC Proyectos/Practica/node_modules/lightningcss/node/index.js:17:20
+[00:01:04.860] Server  ERROR    ⨯ ./Documents/VSC Proyectos/Practica/node_modules/lightningcss/node/index.js:17:20
 Module not found: Can't resolve '../pkg'
   15 |
   16 | if (process.env.CSS_TRANSFORMER_WASM) {
@@ -88,7 +88,7 @@ Import trace:
 https://nextjs.org/docs/messages/module-not-found
 
 
-[00:00:07.608] Browser ERROR   uncaughtError: Error: ./Documents/VSC Proyectos/Practica/styles/css/main.css
+[00:01:05.355] Browser ERROR   uncaughtError: Error: ./Documents/VSC Proyectos/Practica/styles/css/main.css
 Error evaluating Node.js code
 Error: Cannot find module 'unknown'
     [at <anonymous> (turbopack:///[project]/Documents/VSC Proyectos/Practica/node_modules/lightningcss/node/index.js:22:19)]
@@ -108,7 +108,7 @@ Import trace:
     ./Documents/VSC Proyectos/Practica/pages/_app.js
 
 
-[00:00:07.801] Browser ERROR   ./Documents/VSC Proyectos/Practica/styles/css/main.css
+[00:01:05.548] Browser ERROR   ./Documents/VSC Proyectos/Practica/styles/css/main.css
 Error evaluating Node.js code
 Error: Cannot find module 'unknown'
     [at <anonymous> (turbopack:///[project]/Documents/VSC Proyectos/Practica/node_modules/lightningcss/node/index.js:22:19)]
@@ -126,7 +126,7 @@ Import trace:
   Browser:
     ./Documents/VSC Proyectos/Practica/styles/css/main.css
     ./Documents/VSC Proyectos/Practica/pages/_app.js
-[00:00:07.801] Browser ERROR   ./Documents/VSC Proyectos/Practica/styles/css/tailwind.css
+[00:01:05.548] Browser ERROR   ./Documents/VSC Proyectos/Practica/styles/css/tailwind.css
 Error evaluating Node.js code
 Error: Cannot find module 'unknown'
     [at <anonymous> (turbopack:///[project]/Documents/VSC Proyectos/Practica/node_modules/lightningcss/node/index.js:22:19)]
@@ -144,7 +144,7 @@ Import trace:
   Browser:
     ./Documents/VSC Proyectos/Practica/styles/css/tailwind.css
     ./Documents/VSC Proyectos/Practica/pages/_app.js
-[00:00:07.801] Browser ERROR   ./Documents/VSC Proyectos/Practica/node_modules/lightningcss/node/index.js:22:22
+[00:01:05.548] Browser ERROR   ./Documents/VSC Proyectos/Practica/node_modules/lightningcss/node/index.js:22:22
 Module not found: Can't resolve '../lightningcss.' <dynamic> '.node'
   20 |     module.exports = require(`lightningcss-${parts.join('-')}`);
   21 |   } catch (err) {
@@ -162,7 +162,7 @@ Import trace:
     ./Documents/VSC Proyectos/Practica/postcss.config.cjs
 
 https://nextjs.org/docs/messages/module-not-found
-[00:00:07.801] Browser ERROR   ./Documents/VSC Proyectos/Practica/node_modules/lightningcss/node/index.js:17:20
+[00:01:05.548] Browser ERROR   ./Documents/VSC Proyectos/Practica/node_modules/lightningcss/node/index.js:17:20
 Module not found: Can't resolve '../pkg'
   15 |
   16 | if (process.env.CSS_TRANSFORMER_WASM) {
@@ -180,7 +180,7 @@ Import trace:
     ./Documents/VSC Proyectos/Practica/postcss.config.cjs
 
 https://nextjs.org/docs/messages/module-not-found
-[00:00:08.412] Browser ERROR   ./Documents/VSC Proyectos/Practica/styles/css/main.css
+[00:01:06.123] Browser ERROR   ./Documents/VSC Proyectos/Practica/styles/css/main.css
 Error evaluating Node.js code
 Error: Cannot find module 'unknown'
     [at <anonymous> (turbopack:///[project]/Documents/VSC Proyectos/Practica/node_modules/lightningcss/node/index.js:22:19)]
@@ -198,7 +198,7 @@ Import trace:
   Browser:
     ./Documents/VSC Proyectos/Practica/styles/css/main.css
     ./Documents/VSC Proyectos/Practica/pages/_app.js
-[00:00:08.412] Browser ERROR   ./Documents/VSC Proyectos/Practica/styles/css/tailwind.css
+[00:01:06.123] Browser ERROR   ./Documents/VSC Proyectos/Practica/styles/css/tailwind.css
 Error evaluating Node.js code
 Error: Cannot find module 'unknown'
     [at <anonymous> (turbopack:///[project]/Documents/VSC Proyectos/Practica/node_modules/lightningcss/node/index.js:22:19)]
@@ -216,7 +216,7 @@ Import trace:
   Browser:
     ./Documents/VSC Proyectos/Practica/styles/css/tailwind.css
     ./Documents/VSC Proyectos/Practica/pages/_app.js
-[00:00:08.412] Browser ERROR   ./Documents/VSC Proyectos/Practica/node_modules/lightningcss/node/index.js:22:22
+[00:01:06.123] Browser ERROR   ./Documents/VSC Proyectos/Practica/node_modules/lightningcss/node/index.js:22:22
 Module not found: Can't resolve '../lightningcss.' <dynamic> '.node'
   20 |     module.exports = require(`lightningcss-${parts.join('-')}`);
   21 |   } catch (err) {
@@ -234,7 +234,7 @@ Import trace:
     ./Documents/VSC Proyectos/Practica/postcss.config.cjs
 
 https://nextjs.org/docs/messages/module-not-found
-[00:00:08.412] Browser ERROR   ./Documents/VSC Proyectos/Practica/node_modules/lightningcss/node/index.js:17:20
+[00:01:06.123] Browser ERROR   ./Documents/VSC Proyectos/Practica/node_modules/lightningcss/node/index.js:17:20
 Module not found: Can't resolve '../pkg'
   15 |
   16 | if (process.env.CSS_TRANSFORMER_WASM) {
