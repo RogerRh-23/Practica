@@ -1,1 +1,254 @@
-[00:00:01.195] Server  LOG      ✓ Ready in 730ms
+[00:00:01.210] Server  LOG      ✓ Ready in 829ms
+[00:00:06.893] Server  ERROR    ⨯ ./Documents/VSC Proyectos/Practica/node_modules/lightningcss/node/index.js:22:22
+Module not found: Can't resolve '../lightningcss.' <dynamic> '.node'
+  20 |     module.exports = require(`lightningcss-${parts.join('-')}`);
+  21 |   } catch (err) {
+> 22 |     module.exports = require(`../lightningcss.${parts.join('-')}.node`);
+     |                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  23 |   }
+  24 | }
+  25 |
+
+
+
+Import trace:
+  postcss:
+    ./Documents/VSC Proyectos/Practica/node_modules/lightningcss/node/index.js
+    ./Documents/VSC Proyectos/Practica/node_modules/@tailwindcss/node/dist/index.js
+    ./Documents/VSC Proyectos/Practica/node_modules/@tailwindcss/postcss/dist/index.js
+    ./Documents/VSC Proyectos/Practica/postcss.config.cjs
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:06.894] Server  ERROR    ⨯ ./Documents/VSC Proyectos/Practica/node_modules/lightningcss/node/index.js:17:20
+Module not found: Can't resolve '../pkg'
+  15 |
+  16 | if (process.env.CSS_TRANSFORMER_WASM) {
+> 17 |   module.exports = require(`../pkg`);
+     |                    ^^^^^^^^^^^^^^^^^
+  18 | } else {
+  19 |   try {
+  20 |     module.exports = require(`lightningcss-${parts.join('-')}`);
+
+
+
+Import trace:
+  postcss:
+    ./Documents/VSC Proyectos/Practica/node_modules/lightningcss/node/index.js
+    ./Documents/VSC Proyectos/Practica/node_modules/@tailwindcss/node/dist/index.js
+    ./Documents/VSC Proyectos/Practica/node_modules/@tailwindcss/postcss/dist/index.js
+    ./Documents/VSC Proyectos/Practica/postcss.config.cjs
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:06.895] Server  LOG      ○ Compiling / ...
+[00:00:07.163] Server  ERROR    ⨯ ./Documents/VSC Proyectos/Practica/node_modules/lightningcss/node/index.js:22:22
+Module not found: Can't resolve '../lightningcss.' <dynamic> '.node'
+  20 |     module.exports = require(`lightningcss-${parts.join('-')}`);
+  21 |   } catch (err) {
+> 22 |     module.exports = require(`../lightningcss.${parts.join('-')}.node`);
+     |                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  23 |   }
+  24 | }
+  25 |
+
+
+
+Import trace:
+  postcss:
+    ./Documents/VSC Proyectos/Practica/node_modules/lightningcss/node/index.js
+    ./Documents/VSC Proyectos/Practica/node_modules/@tailwindcss/node/dist/index.js
+    ./Documents/VSC Proyectos/Practica/node_modules/@tailwindcss/postcss/dist/index.js
+    ./Documents/VSC Proyectos/Practica/postcss.config.cjs
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:07.164] Server  ERROR    ⨯ ./Documents/VSC Proyectos/Practica/node_modules/lightningcss/node/index.js:17:20
+Module not found: Can't resolve '../pkg'
+  15 |
+  16 | if (process.env.CSS_TRANSFORMER_WASM) {
+> 17 |   module.exports = require(`../pkg`);
+     |                    ^^^^^^^^^^^^^^^^^
+  18 | } else {
+  19 |   try {
+  20 |     module.exports = require(`lightningcss-${parts.join('-')}`);
+
+
+
+Import trace:
+  postcss:
+    ./Documents/VSC Proyectos/Practica/node_modules/lightningcss/node/index.js
+    ./Documents/VSC Proyectos/Practica/node_modules/@tailwindcss/node/dist/index.js
+    ./Documents/VSC Proyectos/Practica/node_modules/@tailwindcss/postcss/dist/index.js
+    ./Documents/VSC Proyectos/Practica/postcss.config.cjs
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:07.608] Browser ERROR   uncaughtError: Error: ./Documents/VSC Proyectos/Practica/styles/css/main.css
+Error evaluating Node.js code
+Error: Cannot find module 'unknown'
+    [at <anonymous> (turbopack:///[project]/Documents/VSC Proyectos/Practica/node_modules/lightningcss/node/index.js:22:19)]
+    [at module evaluation (turbopack:///[project]/Documents/VSC Proyectos/Practica/node_modules/lightningcss/node/index.js:22:19)]
+    [at instantiateModule (turbopack:///[turbopack]/nodejs/runtime.ts:228:5)]
+    [at getOrInstantiateModuleFromParent (turbopack:///[turbopack]/nodejs/runtime.ts:261:10)]
+    [at Context.commonJsRequire (turbopack:///[turbopack]/shared/runtime-utils.ts:389:10)]
+    [at module evaluation (turbopack:///[project]/Documents/VSC Proyectos/Practica/node_modules/@tailwindcss/node/dist/index.js:15:186)]
+    [at instantiateModule (turbopack:///[turbopack]/nodejs/runtime.ts:228:5)]
+    [at getOrInstantiateModuleFromParent (turbopack:///[turbopack]/nodejs/runtime.ts:261:10)]
+    [at Context.commonJsRequire (turbopack:///[turbopack]/shared/runtime-utils.ts:389:10)]
+    [at module evaluation (turbopack:///[project]/Documents/VSC Proyectos/Practica/node_modules/@tailwindcss/postcss/dist/index.js:1:1326)]
+
+Import trace:
+  Browser:
+    ./Documents/VSC Proyectos/Practica/styles/css/main.css
+    ./Documents/VSC Proyectos/Practica/pages/_app.js
+
+
+[00:00:07.801] Browser ERROR   ./Documents/VSC Proyectos/Practica/styles/css/main.css
+Error evaluating Node.js code
+Error: Cannot find module 'unknown'
+    [at <anonymous> (turbopack:///[project]/Documents/VSC Proyectos/Practica/node_modules/lightningcss/node/index.js:22:19)]
+    [at module evaluation (turbopack:///[project]/Documents/VSC Proyectos/Practica/node_modules/lightningcss/node/index.js:22:19)]
+    [at instantiateModule (turbopack:///[turbopack]/nodejs/runtime.ts:228:5)]
+    [at getOrInstantiateModuleFromParent (turbopack:///[turbopack]/nodejs/runtime.ts:261:10)]
+    [at Context.commonJsRequire (turbopack:///[turbopack]/shared/runtime-utils.ts:389:10)]
+    [at module evaluation (turbopack:///[project]/Documents/VSC Proyectos/Practica/node_modules/@tailwindcss/node/dist/index.js:15:186)]
+    [at instantiateModule (turbopack:///[turbopack]/nodejs/runtime.ts:228:5)]
+    [at getOrInstantiateModuleFromParent (turbopack:///[turbopack]/nodejs/runtime.ts:261:10)]
+    [at Context.commonJsRequire (turbopack:///[turbopack]/shared/runtime-utils.ts:389:10)]
+    [at module evaluation (turbopack:///[project]/Documents/VSC Proyectos/Practica/node_modules/@tailwindcss/postcss/dist/index.js:1:1326)]
+
+Import trace:
+  Browser:
+    ./Documents/VSC Proyectos/Practica/styles/css/main.css
+    ./Documents/VSC Proyectos/Practica/pages/_app.js
+[00:00:07.801] Browser ERROR   ./Documents/VSC Proyectos/Practica/styles/css/tailwind.css
+Error evaluating Node.js code
+Error: Cannot find module 'unknown'
+    [at <anonymous> (turbopack:///[project]/Documents/VSC Proyectos/Practica/node_modules/lightningcss/node/index.js:22:19)]
+    [at module evaluation (turbopack:///[project]/Documents/VSC Proyectos/Practica/node_modules/lightningcss/node/index.js:22:19)]
+    [at instantiateModule (turbopack:///[turbopack]/nodejs/runtime.ts:228:5)]
+    [at getOrInstantiateModuleFromParent (turbopack:///[turbopack]/nodejs/runtime.ts:261:10)]
+    [at Context.commonJsRequire (turbopack:///[turbopack]/shared/runtime-utils.ts:389:10)]
+    [at module evaluation (turbopack:///[project]/Documents/VSC Proyectos/Practica/node_modules/@tailwindcss/node/dist/index.js:15:186)]
+    [at instantiateModule (turbopack:///[turbopack]/nodejs/runtime.ts:228:5)]
+    [at getOrInstantiateModuleFromParent (turbopack:///[turbopack]/nodejs/runtime.ts:261:10)]
+    [at Context.commonJsRequire (turbopack:///[turbopack]/shared/runtime-utils.ts:389:10)]
+    [at module evaluation (turbopack:///[project]/Documents/VSC Proyectos/Practica/node_modules/@tailwindcss/postcss/dist/index.js:1:1326)]
+
+Import trace:
+  Browser:
+    ./Documents/VSC Proyectos/Practica/styles/css/tailwind.css
+    ./Documents/VSC Proyectos/Practica/pages/_app.js
+[00:00:07.801] Browser ERROR   ./Documents/VSC Proyectos/Practica/node_modules/lightningcss/node/index.js:22:22
+Module not found: Can't resolve '../lightningcss.' <dynamic> '.node'
+  20 |     module.exports = require(`lightningcss-${parts.join('-')}`);
+  21 |   } catch (err) {
+> 22 |     module.exports = require(`../lightningcss.${parts.join('-')}.node`);
+     |                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  23 |   }
+  24 | }
+  25 |
+
+Import trace:
+  postcss:
+    ./Documents/VSC Proyectos/Practica/node_modules/lightningcss/node/index.js
+    ./Documents/VSC Proyectos/Practica/node_modules/@tailwindcss/node/dist/index.js
+    ./Documents/VSC Proyectos/Practica/node_modules/@tailwindcss/postcss/dist/index.js
+    ./Documents/VSC Proyectos/Practica/postcss.config.cjs
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:07.801] Browser ERROR   ./Documents/VSC Proyectos/Practica/node_modules/lightningcss/node/index.js:17:20
+Module not found: Can't resolve '../pkg'
+  15 |
+  16 | if (process.env.CSS_TRANSFORMER_WASM) {
+> 17 |   module.exports = require(`../pkg`);
+     |                    ^^^^^^^^^^^^^^^^^
+  18 | } else {
+  19 |   try {
+  20 |     module.exports = require(`lightningcss-${parts.join('-')}`);
+
+Import trace:
+  postcss:
+    ./Documents/VSC Proyectos/Practica/node_modules/lightningcss/node/index.js
+    ./Documents/VSC Proyectos/Practica/node_modules/@tailwindcss/node/dist/index.js
+    ./Documents/VSC Proyectos/Practica/node_modules/@tailwindcss/postcss/dist/index.js
+    ./Documents/VSC Proyectos/Practica/postcss.config.cjs
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:08.412] Browser ERROR   ./Documents/VSC Proyectos/Practica/styles/css/main.css
+Error evaluating Node.js code
+Error: Cannot find module 'unknown'
+    [at <anonymous> (turbopack:///[project]/Documents/VSC Proyectos/Practica/node_modules/lightningcss/node/index.js:22:19)]
+    [at module evaluation (turbopack:///[project]/Documents/VSC Proyectos/Practica/node_modules/lightningcss/node/index.js:22:19)]
+    [at instantiateModule (turbopack:///[turbopack]/nodejs/runtime.ts:228:5)]
+    [at getOrInstantiateModuleFromParent (turbopack:///[turbopack]/nodejs/runtime.ts:261:10)]
+    [at Context.commonJsRequire (turbopack:///[turbopack]/shared/runtime-utils.ts:389:10)]
+    [at module evaluation (turbopack:///[project]/Documents/VSC Proyectos/Practica/node_modules/@tailwindcss/node/dist/index.js:15:186)]
+    [at instantiateModule (turbopack:///[turbopack]/nodejs/runtime.ts:228:5)]
+    [at getOrInstantiateModuleFromParent (turbopack:///[turbopack]/nodejs/runtime.ts:261:10)]
+    [at Context.commonJsRequire (turbopack:///[turbopack]/shared/runtime-utils.ts:389:10)]
+    [at module evaluation (turbopack:///[project]/Documents/VSC Proyectos/Practica/node_modules/@tailwindcss/postcss/dist/index.js:1:1326)]
+
+Import trace:
+  Browser:
+    ./Documents/VSC Proyectos/Practica/styles/css/main.css
+    ./Documents/VSC Proyectos/Practica/pages/_app.js
+[00:00:08.412] Browser ERROR   ./Documents/VSC Proyectos/Practica/styles/css/tailwind.css
+Error evaluating Node.js code
+Error: Cannot find module 'unknown'
+    [at <anonymous> (turbopack:///[project]/Documents/VSC Proyectos/Practica/node_modules/lightningcss/node/index.js:22:19)]
+    [at module evaluation (turbopack:///[project]/Documents/VSC Proyectos/Practica/node_modules/lightningcss/node/index.js:22:19)]
+    [at instantiateModule (turbopack:///[turbopack]/nodejs/runtime.ts:228:5)]
+    [at getOrInstantiateModuleFromParent (turbopack:///[turbopack]/nodejs/runtime.ts:261:10)]
+    [at Context.commonJsRequire (turbopack:///[turbopack]/shared/runtime-utils.ts:389:10)]
+    [at module evaluation (turbopack:///[project]/Documents/VSC Proyectos/Practica/node_modules/@tailwindcss/node/dist/index.js:15:186)]
+    [at instantiateModule (turbopack:///[turbopack]/nodejs/runtime.ts:228:5)]
+    [at getOrInstantiateModuleFromParent (turbopack:///[turbopack]/nodejs/runtime.ts:261:10)]
+    [at Context.commonJsRequire (turbopack:///[turbopack]/shared/runtime-utils.ts:389:10)]
+    [at module evaluation (turbopack:///[project]/Documents/VSC Proyectos/Practica/node_modules/@tailwindcss/postcss/dist/index.js:1:1326)]
+
+Import trace:
+  Browser:
+    ./Documents/VSC Proyectos/Practica/styles/css/tailwind.css
+    ./Documents/VSC Proyectos/Practica/pages/_app.js
+[00:00:08.412] Browser ERROR   ./Documents/VSC Proyectos/Practica/node_modules/lightningcss/node/index.js:22:22
+Module not found: Can't resolve '../lightningcss.' <dynamic> '.node'
+  20 |     module.exports = require(`lightningcss-${parts.join('-')}`);
+  21 |   } catch (err) {
+> 22 |     module.exports = require(`../lightningcss.${parts.join('-')}.node`);
+     |                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  23 |   }
+  24 | }
+  25 |
+
+Import trace:
+  postcss:
+    ./Documents/VSC Proyectos/Practica/node_modules/lightningcss/node/index.js
+    ./Documents/VSC Proyectos/Practica/node_modules/@tailwindcss/node/dist/index.js
+    ./Documents/VSC Proyectos/Practica/node_modules/@tailwindcss/postcss/dist/index.js
+    ./Documents/VSC Proyectos/Practica/postcss.config.cjs
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:08.412] Browser ERROR   ./Documents/VSC Proyectos/Practica/node_modules/lightningcss/node/index.js:17:20
+Module not found: Can't resolve '../pkg'
+  15 |
+  16 | if (process.env.CSS_TRANSFORMER_WASM) {
+> 17 |   module.exports = require(`../pkg`);
+     |                    ^^^^^^^^^^^^^^^^^
+  18 | } else {
+  19 |   try {
+  20 |     module.exports = require(`lightningcss-${parts.join('-')}`);
+
+Import trace:
+  postcss:
+    ./Documents/VSC Proyectos/Practica/node_modules/lightningcss/node/index.js
+    ./Documents/VSC Proyectos/Practica/node_modules/@tailwindcss/node/dist/index.js
+    ./Documents/VSC Proyectos/Practica/node_modules/@tailwindcss/postcss/dist/index.js
+    ./Documents/VSC Proyectos/Practica/postcss.config.cjs
+
+https://nextjs.org/docs/messages/module-not-found
